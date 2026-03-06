@@ -1,0 +1,5 @@
+# Personal workspace context — do not push to remote
+context/
+
+# macOS
+.DS_Store
