@@ -4,7 +4,14 @@
 
 > 65 PM skills and 39 workflows for Windsurf's Cascade AI. From discovery to strategy, execution, launch, and growth.
 
-A Windsurf-native conversion of the [PM Skills Marketplace](https://github.com/phuryn/pm-skills) by Paweł Huryn. Skills and frameworks are preserved in full — adapted from Claude Code's plugin format into Windsurf Rules and Workflows.
+A Windsurf-native conversion of the [PM Skills Marketplace](https://github.com/phuryn/pm-skills) by Paweł Huryn + additional workflows for setting up the company, products, and competitors context. Skills and frameworks are preserved in full — adapted from Claude Code's plugin format into Windsurf Rules and Workflows.
+
+So I added that.
+
+Three setup workflows that run once when you start:
+— walks you through your company (or just grabs it from your website)
+— creates a folder per product with context and requirements
+— pulls competitive analysis automatically
 
 ## Start Here
 
