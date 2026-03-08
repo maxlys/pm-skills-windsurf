@@ -11,27 +11,6 @@ Get a thorough resume review against product management best practices. Evaluate
 
 ## Workflow
 
-### Step 0: Load Context
-
-Read `context/company-overview.md` to understand the company.
-
-Then read the folder names inside `context/products/` to get the list of available products.
-
-Ask the user: "Which product is this for?"
-
-Present the options:
-- One entry per product folder found in `context/products/`
-- **All products**
-- **Other**
-
-Wait for the user's selection, then:
-
-- **Specific product selected** — read all files in `context/products/<product-name>/` for context
-- **All products selected** — read all files in every folder inside `context/products/` for context
-- **Other selected** — ask: "Please describe the product or area you want to focus on." Use the description as context for the rest of the workflow.
-
----
-
 ## Step 1: Accept the Resume
 
 Accept as pasted text, uploaded PDF, or DOCX file. Parse the full content.
