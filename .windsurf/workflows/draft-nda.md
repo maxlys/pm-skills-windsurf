@@ -13,9 +13,9 @@ Draft a professional Non-Disclosure Agreement customized to your situation. Cove
 
 ### Step 0: Load Context
 
-Read `context/company-overview.md` to understand the company.
+**Stage 1 — Product selection (read folder names only, do not read file contents yet)**
 
-Then read the folder names inside `context/products/` to get the list of available products.
+Read only the folder names inside `context/products/` to build the product list.
 
 Ask the user: "Which product is this for?"
 
@@ -24,11 +24,13 @@ Present the options:
 - **All products**
 - **Other**
 
-Wait for the user's selection, then:
+Wait for the user's selection.
 
-- **Specific product selected** — read all files in `context/products/<product-name>/` for context
-- **All products selected** — read all files in every folder inside `context/products/` for context
-- **Other selected** — ask: "Please describe the product or area you want to focus on." Use the description as context for the rest of the workflow.
+**Stage 2 — Load relevant context only (after selection)**
+
+- **Specific product selected** — read `context/company-overview.md` and all files inside `context/products/<product-name>/`
+- **All products selected** — read `context/company-overview.md` and all files in every folder inside `context/products/`
+- **Other selected** — read `context/company-overview.md` only, then ask: "Please describe the product or area you want to focus on." Use the description as context for the rest of the workflow.
 
 ---
 
